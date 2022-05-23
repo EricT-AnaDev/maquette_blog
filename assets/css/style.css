@@ -1,0 +1,89 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: bolder;
+}
+
+header p {
+    color: black;
+}
+
+.bgblack {
+    background-color: black;
+    color: white;
+}
+
+.bggrey {
+    background-color: #F1F1F1;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+.card button,.card a{
+    background-color: transparent;
+    color: black;
+    display: flex;
+    display: inline-block;
+}
+.card a{
+    border: 1px solid black;
+}
+.card a:hover{
+    background-color: black;
+}
+.card button{
+    border: none;
+    display: flex;
+    display: inline-block; 
+}
+.card button:hover{
+    background-color: black;
+}
+.badge{
+    background-color: black;
+}
+.flexImg{
+width: 20%;
+display: flex;
+display: inline-block;
+
+
+}
+.flexTxt{
+display: inline-block;
+width: 60%;
+}
+
+.flexImg img{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+#tags p:first-child {
+    background-color: #F1F1F1;
+}
+footer{
+    background-color: #616161;
+}
+footer button{
+    background-color: #616161;
+    color: white;
+    border: 1px solid #616161;
+    margin: 2rem auto;
+}
+footer button:hover{
+    background-color: black;
+}
+footer p{
+    color: white;
+    padding-bottom: 2rem;
+}
