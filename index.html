@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -22,7 +25,8 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-7 offset-1">
+                <div
+                    class="order-last order-sm-last order-md-last order-lg-first col-sm-12 col-md-6 col-lg-7 offset-lg-1">
                     <div class="card w-100 shadow-lg p-3 mb-3 bg-body rounded" style="width: 18rem;">
                         <img src="./assets/img/woods.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -34,10 +38,19 @@
                                 tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
                                 gravida diam non fringilla.
                             </p>
-                            <a href="#" class="btn btn-primary">READ MORE</a>
-                            <button type="button" class="btn btn-primary">
-                                Comments <span class="badge text-bg-secondary">0</span>
-                            </button>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <div class="col">
+                                <a href="#" class="btn btn-primary">READ MORE <i
+                                        class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                            <div class="col-md-auto">
+                            </div>
+                            <div class="col col-lg-4">
+                                <button type="button" class="btn btn-primary">
+                                    Comments <span class="badge text-bg-dark">0</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div class="card w-100 shadow-lg p-3 mb-3 bg-body rounded" style="width: 18rem;">
@@ -51,14 +64,23 @@
                                 tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
                                 gravida diam non fringilla.
                             </p>
-                            <a href="#" class="btn btn-primary">READ MORE</a>
-                            <button type="button" class="btn btn-primary">
-                                Comments <span class="badge text-bg-secondary">2</span>
-                            </button>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <div class="col">
+                                <a href="#" class="btn btn-primary">READ MORE <i
+                                        class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                            <div class="col-md-auto">
+                            </div>
+                            <div class="col col-lg-4">
+                                <button type="button" class="btn btn-primary">
+                                    Comments <span class="badge rounded-pill text-bg-dark">2</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class=" col-4">
+                <div class="order-first order-sm-first order-md-first order-lg-last col-sm-12 col-md-6 col-lg-4">
                     <div class="card w-100 shadow-lg p-3 mb-3 bg-body rounded" style="width: 18rem;">
                         <img src="./assets/img/avatar_g.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -71,35 +93,35 @@
                     </div>
                     <div class="popular w-100 shadow-lg p-3 mb-3 bg-body rounded">
                         <div class="pop">
-                            <p>Popular Posts</p>
+                            <p class="shadow-none p-3 mb-5 bg-light rounded">Popular Posts</p>
                         </div>
                         <div class="flexImg"><img src="./assets/img/workshop.jpg" alt=""></div>
-                            <div class="flexTxt">
-                                <p>Lorem</p>
-                                <p>Sed mattis nunc</p>
-                            </div>
-                        
+                        <div class="flexTxt">
+
+                            <p>Lorem <br> Sed mattis nunc</p>
+                        </div>
+
                         <div class="flexImg"><img src="./assets/img/gondol.jpg" alt=""></div>
-                            <div class="flexTxt">
-                                <p>Ipsum</p>
-                                <p>Praes tinci sed</p>
-                            </div>
-                        
+                        <div class="flexTxt">
+
+                            <p>Ipsum <br> Praes tinci sed</p>
+                        </div>
+
                         <div class="flexImg"><img src="./assets/img/skies.jpg" alt=""></div>
                         <div class="flexTxt">
-                            <p>Dorum</p>
-                            <p>Ultricies congue</p>
+
+                            <p>Dorum <br> Ultricies congue</p>
                         </div>
 
                         <div class="flexImg"><img src="./assets/img/rock.jpg" alt=""></div>
                         <div class="flexTxt">
-                            <p>Mingsum</p>
-                            <p>Lorem ipsum dipsum</p>
+
+                            <p>Mingsum <br> Lorem ipsum dipsum</p>
                         </div>
                     </div>
 
                     <div class="shadow-lg p-3 mb-3 bg-body rounded" id="tags">
-                        <p>Tags</p>
+                        <p class="shadow-none p-3 mb-5 bg-light rounded">Tags</p>
                         <p> <span class="bgblack">Travel</span> <span class="bggrey"> New York </span><span
                                 class="bggrey">London</span> <span class="bggrey">IKEA</span> <span
                                 class="bggrey">NORWAY</span> <span class="bggrey">DIY</span> <span
@@ -114,14 +136,12 @@
     </main>
     <footer>
         <div class="footButton">
-            <button type="button">Previous</button>
-            <button type="button">Next</button>
-           <!--  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button class="btn btn-primary me-md-2" type="button">Previous</button>
-            <button class="btn btn-primary" type="button">Next</button>
-          </div> -->
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-secondary me-md-2" type="button">Previous</button>
+                <button class="btn btn-dark" type="button">Next <i class="fa-solid fa-angles-right"></i></button>
+            </div>
         </div>
-          <p>Powered by "Goolge est ton ami"</p>
+        <p>Powered by "Goolge est ton ami"</p>
     </footer>
 </body>
 

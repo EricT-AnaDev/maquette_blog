@@ -42,15 +42,12 @@ header p {
 }
 .card button{
     border: none;
-    display: flex;
-    display: inline-block; 
+
 }
 .card button:hover{
     background-color: black;
 }
-.badge{
-    background-color: black;
-}
+
 .flexImg{
 width: 20%;
 display: flex;
@@ -68,21 +65,15 @@ width: 60%;
     display: inline-block;
     margin-bottom: 1rem;
 }
-#tags p:first-child {
-    background-color: #F1F1F1;
-}
+
 footer{
     background-color: #616161;
 }
 footer button{
-    background-color: #616161;
-    color: white;
-    border: 1px solid #616161;
+    
     margin: 2rem auto;
 }
-footer button:hover{
-    background-color: black;
-}
+
 footer p{
     color: white;
     padding-bottom: 2rem;
